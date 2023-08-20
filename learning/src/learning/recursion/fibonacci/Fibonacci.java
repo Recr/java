@@ -2,17 +2,6 @@ package learning.recursion.fibonacci;
 
 public class Fibonacci {
 	
-	public static int notRecursiveFactorial(int n) {
-		if(n == 0) {
-			return 1;
-		}
-		
-		return n * notRecursiveFactorial(n-1);
-	}
-	
-	
-	
-	
 	static int a = 0;
 	static int b = 1;
 	static int tmp = 0;
