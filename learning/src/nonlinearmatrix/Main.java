@@ -1,5 +1,7 @@
-package learning.matrices.vetor;
-
+package nonlinearmatrix;
+/*
+ * create an array with rows of different sizes.
+ */
 public class Main {
 	public static void main(String[] args) {
 		int[] vetor = new int[] { 9, 10, 8, 12, 6, 2, 1, 8 };
@@ -7,7 +9,7 @@ public class Main {
 		int counter = 1;
 
 		for (int i = 0; i < array.length; i++) {
-			array[i] = new int[(vetor[i])];
+			array[i] = new int[vetor[i]];
 			for (int u = 0; u < (vetor[i]); u++) {
 				array[i][u] = counter;
 				counter++;
