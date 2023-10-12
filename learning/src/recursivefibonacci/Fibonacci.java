@@ -1,4 +1,4 @@
-package learning.recursion.fibonacci;
+package recursivefibonacci;
 
 public class Fibonacci {
 	

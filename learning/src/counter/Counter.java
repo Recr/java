@@ -1,4 +1,4 @@
-package learning.counter;
+package counter;
 
 public class Counter {
 	private int counter = 0;
